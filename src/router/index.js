@@ -40,6 +40,11 @@ const routes = [
     path: '/github',
     name: 'GitHub',
     component: () => import(/* webpackChunkName: "todoList" */ '../views/GitHub.vue')
+  },
+  {
+    path: '/form',
+    name: 'Form',
+    component: () => import(/* webpackChunkName: "todoList" */ '../views/Form.vue')
   }
 ]
 

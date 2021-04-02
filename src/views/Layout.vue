@@ -92,6 +92,15 @@
             <v-list-item-title>Login</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+
+        <v-list-item link to="/form">
+          <v-list-item-action>
+            <v-icon>mdi-account</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>Form</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
@@ -115,7 +124,7 @@ export default {
     mini: false
   }),
   created() {
-    this.$vuetify.theme.dark = true
+    this.$vuetify.theme.dark = false
   }
 }
 </script>
