@@ -109,6 +109,7 @@ export default {
     show(event) {
       console.log(event)
       console.log(event.srcElement.currentSrc)
+      // console.log(event.srcElement.currentSrc)
     }
   }
 }

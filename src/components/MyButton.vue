@@ -2,7 +2,7 @@
   <!-- 这里就是动态样式绑定，给 borderRadius（css中的 border-radius） 绑定一个样式就行了  borderRadius-->
   <img
     :style="{ width: size, borderRadius: borderRadius }"
-    src="http://pic-ldd-test.oss-cn-hangzhou.aliyuncs.com/md/20210315130440.jpg"
+    src="http://pic-ldd-test.oss-cn-hangzhou.aliyuncs.com/md/20210129161044.jpg"
     @click="show($event)"
     class="image"
   />
