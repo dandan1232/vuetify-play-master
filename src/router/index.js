@@ -45,6 +45,11 @@ const routes = [
     path: '/form',
     name: 'Form',
     component: () => import(/* webpackChunkName: "todoList" */ '../views/Form.vue')
+  },
+  {
+    path: '/watch',
+    name: 'Watch',
+    component: () => import(/* webpackChunkName: "todoList" */ '../views/Watch.vue')
   }
 ]
 

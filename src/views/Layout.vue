@@ -95,10 +95,19 @@
 
         <v-list-item link to="/form">
           <v-list-item-action>
-            <v-icon>mdi-account</v-icon>
+            <v-icon>mdi-sort-numeric-descending-variant</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Form</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item link to="/watch">
+          <v-list-item-action>
+            <v-icon>mdi-alarm-light</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>Watch</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
